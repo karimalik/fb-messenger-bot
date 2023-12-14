@@ -1,8 +1,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const apiai = require('apiai');
 
 const app = express();
 const PORT = process.env.PORT || 4000;
+
+const APIAI_ACCESS_TOKEN = ''
 
 app.use(bodyParser.json());
 
