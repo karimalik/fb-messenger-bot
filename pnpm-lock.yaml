@@ -1,6 +1,9 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  apiai:
+    specifier: ^4.0.3
+    version: 4.0.3
   axios:
     specifier: ^1.6.2
     version: 1.6.2
@@ -34,6 +37,10 @@ packages:
     dependencies:
       normalize-path: 3.0.0
       picomatch: 2.3.1
+    dev: false
+
+  /apiai@4.0.3:
+    resolution: {integrity: sha512-FmtBWEDw0vJtVCcUaSvPL7NrY5iwi8Gk4El2LaXIb/WdZESjfTn7oXg5iDta72J+GZjAqUFY2SZcTVyIf/vMGg==}
     dev: false
 
   /array-flatten@1.1.1:
